@@ -8,8 +8,8 @@ class DiagnosisMotherPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromRGBO(
-          238, 243, 246, 1), // Set the background color to light blue
+      backgroundColor: const Color.fromARGB(
+          255, 226, 255, 209), // Set the background color to light blue
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -21,11 +21,11 @@ class DiagnosisMotherPage extends StatelessWidget {
             child: Row(
               children: [
                 Image.asset(
-                  'assets/images/glasses.png',
+                  'assets/images/camera.png',
                 ),
                 const SizedBox(width: 10),
                 const Text(
-                  "đánh giá ngôn ngữ",
+                  "이제 감정 평가를 시작합니다",
                   style: TextStyle(
                     fontSize: 40,
                     fontFamily: 'Rowdies',
@@ -37,7 +37,7 @@ class DiagnosisMotherPage extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.only(left: 40, top: 30),
             child: Text(
-              "언어 평가를 시작합니다.\n화면에 나오는 문장을 부모님이 그대로 읽어주세요",
+              "감정 평가를 시작합니다.\n화면에 나오는 감정을 얼굴로 표현해 주세요",
               style: TextStyle(
                 fontSize: 40,
                 fontFamily: 'BMJUA',
@@ -48,7 +48,7 @@ class DiagnosisMotherPage extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.only(left: 40, top: 30),
             child: Text(
-              "Bắt đầu đánh giá ngôn ngữ.\nBa mẹ hãy đọc lại những câu trên màn hình đi ạ",
+              "몸을 움직이지 않고 얼굴만 화면에 나올 수 있도록 합니다",
               style: TextStyle(
                 fontFamily: 'Sriracha',
                 fontSize: 40,

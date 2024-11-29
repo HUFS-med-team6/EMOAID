@@ -1,4 +1,3 @@
-//토리찌가 홈에 나와서 사용자에게 평가방법을 알려줍니다.
 import 'dart:async';
 import 'package:bridze/diagnosis_home_2.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +15,7 @@ class HomeScreenState extends State<HomeScreen> {
   MyAudioPlayer myAudioPlayer = MyAudioPlayer();
   bool isPlaying = false;
   String greetingText =
-      '안녕 ? 나는 토리찌야 !\n나는 너와 친구가 되고 싶어 ~\n너에 대해 잘 알고 싶은데\n지금부터 내 질문에 솔직하게 답해줄거지 ?';
+      '안녕 ? 우리는 동물 친구들이야 !\n우리 얼굴 표정 짓기 놀이 하자~~\n우리가 말하는 기분에 맞게 표정을 지어보는 거야!\n그러면 내가 기분과 표정이 잘 맞는지 알려줄게!\n잘 할 수 있지?\n홈으로 가서 평가 버튼을 누르면 시작해~';
 
   void toggleAudio() {
     setState(() {
@@ -28,21 +27,6 @@ class HomeScreenState extends State<HomeScreen> {
     } else {
       myAudioPlayer.pause();
     }
-  }
-
-  //15초간 문장을 띄워줍니다.
-  @override
-  void initState() {
-    super.initState();
-
-    Timer(const Duration(seconds: 15), _changeGreetingText);
-  }
-
-  void _changeGreetingText() {
-    setState(() {
-      greetingText =
-          '첫 번째 놀이는 내가 제시한 문장을 그대로 읽어주면 돼 ~\n두 번째 놀이는 내가 물어보는 질문에 솔직하게 답해줄거지 ~\n밑에 나오는 얼굴 표정과 점수를 보고\n너의 기분을 클릭해줘 !';
-    });
   }
 
   @override
@@ -59,7 +43,7 @@ class HomeScreenState extends State<HomeScreen> {
         child: Stack(
           children: [
             Image.asset(
-              'assets/images/home_image.png',
+              'assets/images/home001.png',
               fit: BoxFit.cover,
               width: 1440,
               height: 1024,
@@ -69,7 +53,8 @@ class HomeScreenState extends State<HomeScreen> {
               child: Text("평가 과정 안내",
                   style: TextStyle(
                     fontFamily: 'BMJUA',
-                    fontSize: 50,
+                    fontSize: 100,
+                    fontWeight: FontWeight.bold,
                   )),
             ),
             Padding(

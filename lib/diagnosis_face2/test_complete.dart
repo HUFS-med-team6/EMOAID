@@ -28,7 +28,7 @@ class DiagnosisEnd extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'assets/images/desktop1.png',
+            'assets/images/diag002.png',
             fit: BoxFit.cover,
             width: 1440,
             height: 1024,
@@ -50,7 +50,7 @@ class DiagnosisEnd extends StatelessWidget {
               const Padding(
                 padding: EdgeInsets.only(left: 40, top: 30),
                 child: Text(
-                  "Buổi đánh giá đã kết thúc !\nVui lòng xác nhận bằng cách nhấp vào kết quả phân\ntích thông tin của tôi.",
+                  "<Emoaid는 아동의 감정 인식을 정량적으로 평가하는 보조적인 도구입니다.>",
                   style: TextStyle(
                     fontFamily: 'Sriracha',
                     fontSize: 40,

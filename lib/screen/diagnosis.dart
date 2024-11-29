@@ -2,6 +2,7 @@
 // 해당하는 아이콘을 누르면 해당 평가 첫화면으로 넘어갑니다.
 
 import 'package:bridze/screen/diagnosis_face/diagnosis_kid_11.dart';
+import 'package:bridze/diagnosis_face2/diagnosis_kid_20.dart';
 import 'package:bridze/screen/diagnosis_kid.dart';
 import 'package:bridze/screen/diagnosis_mother/diagnosis_mother_1.dart';
 import 'package:bridze/screen/login2.dart';
@@ -39,20 +40,20 @@ class DiagnosisScreen extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'assets/images/desktop2.png',
+            'assets/images/diag001.png',
             fit: BoxFit.cover,
             width: 1440,
             height: 1024,
           ),
           Padding(
             padding: const EdgeInsets.only(
-              top: 40,
+              top: 220,
               left: 20,
             ),
             child: Column(
               children: <Widget>[
                 const Text(
-                  'BridZe와 함께 시작해볼까요 ?',
+                  '',
                   style: TextStyle(
                     fontFamily: 'BMJUA',
                     fontSize: 40,
@@ -60,7 +61,7 @@ class DiagnosisScreen extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.only(
-                    top: 50,
+                    top: 30,
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -68,33 +69,33 @@ class DiagnosisScreen extends StatelessWidget {
                       Flexible(
                         flex: 1,
                         child: ImageButton(
-                            imageAsset: 'assets/images/kid.png',
-                            label: '아이진단용',
+                            imageAsset: 'assets/images/animal.png',
+                            label: '동물들과 함께!',
                             onPressed: () {
                               Navigator.pushNamed(context, '/diagnosis_mother');
                             }),
                       ),
                       const SizedBox(width: 40),
-                      Flexible(
-                        flex: 2,
-                        child: SizedBox(
-                          width: 300,
-                          height: 200,
-                          child: ContainerButton(
-                              labelText: '언어평가 >',
-                              subLabelText: 'đánh giá ngôn ngữ',
-                              onPressed: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) =>
-                                        const DiagnosisKidPage(),
-                                  ),
-                                );
-                              },
-                              isParentButton: false),
-                        ),
-                      ),
+                      // Flexible(
+                      //   flex: 2,
+                      //   child: SizedBox(
+                      //     width: 300,
+                      //     height: 200,
+                      //     child: ContainerButton(
+                      //         labelText: '언어평가 >',
+                      //         subLabelText: 'đánh giá ngôn ngữ',
+                      //         onPressed: () {
+                      //           Navigator.push(
+                      //             context,
+                      //             MaterialPageRoute(
+                      //               builder: (context) =>
+                      //                   const DiagnosisKidPage(),
+                      //             ),
+                      //           );
+                      //         },
+                      //         isParentButton: false),
+                      //   ),
+                      // ),
                       const SizedBox(width: 40),
                       Flexible(
                         flex: 2,
@@ -102,14 +103,16 @@ class DiagnosisScreen extends StatelessWidget {
                           width: 300,
                           height: 200,
                           child: ContainerButton(
-                              labelText: '정서평가 >',
-                              subLabelText: 'đánh giá tình cảm',
+                              labelText: '감정 평가 >',
+                              subLabelText: '버튼을 눌러 주세요.',
                               onPressed: () {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
                                     builder: (context) =>
-                                        const DiagnosisKid11Page(),
+                                        const DiagnosisKid20Page(
+                                      avrScore: '',
+                                    ),
                                   ),
                                 );
                               },
@@ -120,46 +123,46 @@ class DiagnosisScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(
-                  height: 50,
+                  height: 5,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Flexible(
-                      flex: 1,
-                      child: ImageButton(
-                          imageAsset: ('assets/images/mother.png'),
-                          label: '부모진단용',
-                          onPressed: () {
-                            Navigator.pushNamed(context, '/diagnosis_mother');
-                          }),
-                    ),
+                    // Flexible(
+                    //   flex: 1,
+                    //   child: ImageButton(
+                    //       imageAsset: ('assets/images/animal.png'),
+                    //       label: '',
+                    //       onPressed: () {
+                    //         Navigator.pushNamed(context, '/diagnosis_mother');
+                    //       }),
+                    // ),
                     const SizedBox(width: 40),
-                    Flexible(
-                      flex: 2,
-                      child: SizedBox(
-                        width: 300,
-                        height: 200,
-                        child: ContainerButton(
-                            labelText: '언어평가 >',
-                            subLabelText: 'đánh giá ngôn ngữ',
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) =>
-                                        const DiagnosisMother1Page()),
-                              );
-                            },
-                            isParentButton: true),
-                      ),
-                    ),
+                    // Flexible(
+                    //   flex: 2,
+                    //   child: SizedBox(
+                    //     width: 300,
+                    //     height: 200,
+                    //     child: ContainerButton(
+                    //         labelText: '감정 평가 >',
+                    //         subLabelText: '동물 친구들과 표정을 지어봐요',
+                    //         onPressed: () {
+                    //           Navigator.push(
+                    //             context,
+                    //             MaterialPageRoute(
+                    //               builder: (context) =>
+                    //                   const DiagnosisMother1Page()),
+                    //           );
+                    //         },
+                    //         isParentButton: true),
+                    //   ),
+                    // ),
                     const SizedBox(width: 40),
                     Flexible(
                       flex: 2,
                       child: Image.asset(
-                        'assets/images/info.png',
-                        width: 300,
+                        'assets/images/camera_info.png',
+                        width: 280,
                       ),
                     ),
                   ],

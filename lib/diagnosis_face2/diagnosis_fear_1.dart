@@ -33,7 +33,7 @@ class _DiagnosisFear1PageState extends State<DiagnosisFear1Page> {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'assets/images/diagnosis_kid_2.png',
+            'assets/images/diag002.png',
             fit: BoxFit.cover,
             height: 1024,
             width: 1440,
@@ -51,7 +51,7 @@ class _DiagnosisFear1PageState extends State<DiagnosisFear1Page> {
                 ),
                 const SizedBox(width: 10),
                 const Text(
-                  "đánh giá tình cảm",
+                  "슬프기도 하고 무섭기도 하고 마음이 불편해",
                   style: TextStyle(
                     fontSize: 40,
                     fontFamily: 'Rowdies',

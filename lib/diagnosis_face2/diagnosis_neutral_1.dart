@@ -33,7 +33,7 @@ class _DiagnosisNeutral1PageState extends State<DiagnosisNeutral1Page> {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'assets/images/diagnosis_kid_2.png',
+            'assets/images/diag002.png',
             fit: BoxFit.cover,
             height: 1024,
             width: 1440,
@@ -51,7 +51,7 @@ class _DiagnosisNeutral1PageState extends State<DiagnosisNeutral1Page> {
                 ),
                 const SizedBox(width: 10),
                 const Text(
-                  "đánh giá tình cảm",
+                  "나는 지금 아무렇지도 않아",
                   style: TextStyle(
                     fontSize: 40,
                     fontFamily: 'Rowdies',

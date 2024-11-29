@@ -32,7 +32,7 @@ class _DiagnosisAngry2PageState extends State<DiagnosisAngry2Page> {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'assets/images/diagnosis_kid_2.png',
+            'assets/images/diag002.png',
             fit: BoxFit.cover,
             height: 1024,
             width: 1440,
@@ -53,7 +53,7 @@ class _DiagnosisAngry2PageState extends State<DiagnosisAngry2Page> {
                     ),
                     const SizedBox(width: 10),
                     const Text(
-                      "đánh giá tình cảm",
+                      "아끼는 장난감이 부서졌을 때를 생각해 봐",
                       style: TextStyle(
                         fontSize: 40,
                         fontFamily: 'Rowdies',
@@ -69,7 +69,7 @@ class _DiagnosisAngry2PageState extends State<DiagnosisAngry2Page> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(
-                        'assets/images/torizzi.png',
+                        'assets/images/animal_22.png',
                         width: 250,
                         height: 250,
                       ),

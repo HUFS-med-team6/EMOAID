@@ -22,14 +22,15 @@ class DiagnosisMother1Page extends StatelessWidget {
             child: Row(
               children: [
                 Image.asset(
-                  'assets/images/glasses.png',
+                  'assets/images/camera.png',
                 ),
                 const SizedBox(width: 10),
                 const Text(
-                  "đánh giá ngôn ngữ",
+                  "감정 평가",
                   style: TextStyle(
                     fontSize: 40,
                     fontFamily: 'Rowdies',
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
               ],
@@ -38,7 +39,7 @@ class DiagnosisMother1Page extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.only(left: 40, top: 30),
             child: Text(
-              "언어 평가를 시작합니다.\n화면에 나오는 문장을 부모님이 읽어주세요",
+              "지금부터 감정 평가를 시작하겠습니다.\n화면에 나오는 감정을 얼굴로 표현해 주세요!",
               style: TextStyle(
                 fontSize: 40,
                 fontFamily: 'BMJUA',
@@ -49,7 +50,7 @@ class DiagnosisMother1Page extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.only(left: 40, top: 30),
             child: Text(
-              "Bắt đầu đánh giá ngôn ngữ.\nBa mẹ hãy đọc lại những câu trên màn hình đi ạ",
+              "몸을 움직이지 않고 얼굴만 화면에 나올 수 있도록 합니다",
               style: TextStyle(
                 fontSize: 40,
                 fontFamily: 'Sriracha',

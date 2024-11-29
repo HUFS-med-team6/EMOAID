@@ -30,7 +30,7 @@ class _DiagnosisFear2PageState extends State<DiagnosisFear2Page> {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'assets/images/diagnosis_kid_2.png',
+            'assets/images/diag002.png',
             fit: BoxFit.cover,
             height: 1024,
             width: 1440,
@@ -51,7 +51,7 @@ class _DiagnosisFear2PageState extends State<DiagnosisFear2Page> {
                     ),
                     const SizedBox(width: 10),
                     const Text(
-                      "đánh giá tình cảm",
+                      "달리기 하다가 넘어질 것 같은 상상을 해 봐~",
                       style: TextStyle(
                         fontSize: 40,
                         fontFamily: 'Rowdies',
@@ -67,7 +67,7 @@ class _DiagnosisFear2PageState extends State<DiagnosisFear2Page> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(
-                        'assets/images/torizzi.png',
+                        'assets/images/animal_22.png',
                         width: 250,
                         height: 250,
                       ),

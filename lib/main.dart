@@ -2,7 +2,6 @@ import 'package:bridze/provider/face_evaluation.dart';
 import 'package:bridze/provider/institution_recommended.dart';
 import 'package:bridze/screen/diagnosis.dart';
 import 'package:bridze/screen/home.dart';
-import 'package:bridze/screen/login.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -36,7 +35,6 @@ class _MyAppState extends State<MyApp> {
       routes: {
         '/home': (context) => const HomeScreen(),
         '/diagnosis': (context) => const DiagnosisScreen(),
-        '/profile': (context) => const LoginPage(),
       },
     );
   }
@@ -52,7 +50,7 @@ class HomePage extends StatelessWidget {
         children: <Widget>[
           // Your background image
           Image.asset(
-            'assets/images/desktop1.png',
+            'assets/images/001.png',
             fit: BoxFit.cover,
             width: 1440,
             height: 1024,
@@ -62,25 +60,20 @@ class HomePage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Image.asset(
-                  'assets/images/torizzi.png',
-                  width: 143,
-                  height: 130,
-                ),
                 const SizedBox(height: 20),
                 const Text(
-                  'BridZe',
+                  'EmoAids!',
                   style: TextStyle(
-                    fontSize: 70,
+                    fontSize: 160,
                     fontWeight: FontWeight.bold,
                     fontFamily: 'BMJUA',
                     color: Colors.black,
                   ),
                   textAlign: TextAlign.center,
                 ),
-                const SizedBox(height: 20),
+                const SizedBox(height: 3),
                 const Text(
-                  '다문화가정 아동들을 세상으로 잇다',
+                  '얼굴 표정으로 말해 보아요',
                   style: TextStyle(
                     fontSize: 50,
                     fontFamily: 'BMJUA',
@@ -95,25 +88,17 @@ class HomePage extends StatelessWidget {
                     children: [
                       buildIconButton(
                         icon: Icons.home,
-                        label: '홈',
+                        label: '설명서',
                         onPressed: () {
                           Navigator.pushNamed(context, '/home');
                         },
                       ),
-                      const SizedBox(width: 120),
+                      const SizedBox(width: 110),
                       buildIconButton(
                         icon: Icons.favorite,
                         label: '평가',
                         onPressed: () {
                           Navigator.pushNamed(context, '/diagnosis');
-                        },
-                      ),
-                      const SizedBox(width: 120),
-                      buildIconButton(
-                        icon: Icons.person,
-                        label: '프로필',
-                        onPressed: () {
-                          Navigator.pushNamed(context, '/profile');
                         },
                       ),
                     ],

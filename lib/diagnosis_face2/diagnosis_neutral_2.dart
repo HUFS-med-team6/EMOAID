@@ -30,7 +30,7 @@ class _DiagnosisNeutral2PageState extends State<DiagnosisNeutral2Page> {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'assets/images/diagnosis_kid_2.png',
+            'assets/images/diag002.png',
             fit: BoxFit.cover,
             height: 1024,
             width: 1440,
@@ -51,7 +51,7 @@ class _DiagnosisNeutral2PageState extends State<DiagnosisNeutral2Page> {
                     ),
                     const SizedBox(width: 10),
                     const Text(
-                      "đánh giá tình cảm",
+                      "머엉 아무 생각 없을 때를 상상해 봐~",
                       style: TextStyle(
                         fontSize: 40,
                         fontFamily: 'Rowdies',
@@ -67,7 +67,7 @@ class _DiagnosisNeutral2PageState extends State<DiagnosisNeutral2Page> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(
-                        'assets/images/torizzi.png',
+                        'assets/images/animal_21.png',
                         width: 250,
                         height: 250,
                       ),

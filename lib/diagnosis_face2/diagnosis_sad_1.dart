@@ -33,7 +33,7 @@ class _DiagnosisSad1PageState extends State<DiagnosisSad1Page> {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'assets/images/diagnosis_kid_2.png',
+            'assets/images/diag002.png',
             fit: BoxFit.cover,
             height: 1024,
             width: 1440,
@@ -51,7 +51,7 @@ class _DiagnosisSad1PageState extends State<DiagnosisSad1Page> {
                 ),
                 const SizedBox(width: 10),
                 const Text(
-                  "đánh giá tình cảm",
+                  "훌쩍훌쩍... 나는 너무 슬퍼",
                   style: TextStyle(
                     fontSize: 40,
                     fontFamily: 'Rowdies',

@@ -34,7 +34,7 @@ class _DiagnosisAngry1PageState extends State<DiagnosisAngry1Page> {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'assets/images/diagnosis_kid_2.png',
+            'assets/images/diag002.png',
             fit: BoxFit.cover,
             height: 1024,
             width: 1440,
@@ -52,7 +52,7 @@ class _DiagnosisAngry1PageState extends State<DiagnosisAngry1Page> {
                 ),
                 const SizedBox(width: 10),
                 const Text(
-                  "đánh giá tình cảm",
+                  "으으... 나는 너무 화가 났어",
                   style: TextStyle(
                     fontSize: 40,
                     fontFamily: 'Rowdies',

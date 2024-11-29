@@ -11,7 +11,7 @@ class DiagnosisKid20Page extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'assets/images/diagnosis_kid_2.png',
+            'assets/images/diag002.png',
             fit: BoxFit.cover,
             height: 1024,
             width: 1440,
@@ -32,7 +32,7 @@ class DiagnosisKid20Page extends StatelessWidget {
                     ),
                     const SizedBox(width: 10),
                     const Text(
-                      "đánh giá tình cảm",
+                      "감정 평가 시작",
                       style: TextStyle(
                         fontSize: 40,
                         fontFamily: 'Rowdies',
@@ -44,7 +44,7 @@ class DiagnosisKid20Page extends StatelessWidget {
               const Padding(
                 padding: EdgeInsets.only(left: 40, top: 30),
                 child: Text(
-                  "토리찌와 표정 놀이를 시작해봅시다 !\n토리찌가 제시하는 감정을 표정으로 마음껏 표현해보세요.",
+                  "동물 친구들과 표정 놀이를 시작해 봅시다!\n화면에 나오는 감정을 표정으로 마음껏 표현해 보세요!",
                   style: TextStyle(
                     fontSize: 40,
                     fontFamily: 'BMJUA',
@@ -55,7 +55,7 @@ class DiagnosisKid20Page extends StatelessWidget {
               const Padding(
                 padding: EdgeInsets.only(left: 40, top: 30),
                 child: Text(
-                  "Chúng ta hãy bắt đầu trò chơi biểu cảm với thỏ nào !\nHãy thể hiện hết mình cảm xúc của thỏ bằng biểu cảm nhé",
+                  "",
                   style: TextStyle(
                     fontFamily: 'Sriracha',
                     fontSize: 40,
@@ -70,7 +70,7 @@ class DiagnosisKid20Page extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(
-                        'assets/images/torizzi.png',
+                        'assets/images/animal.png',
                         height: 200,
                         width: 200,
                       ),
