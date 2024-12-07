@@ -13,11 +13,11 @@ class PictureSave extends StatefulWidget {
 
 class _PictureSaveState extends State<PictureSave> {
   List<String> serverUrls = [
-    'https://daitso.run.goorm.site/download/image?emotion=happy', // 행복한 감정 이미지 URL
-    'https://daitso.run.goorm.site/download/image?emotion=angry', // 화난 감정 이미지 URL
-    'https://daitso.run.goorm.site/download/image?emotion=sad', // 슬픈 감정 이미지 URL
-    'https://daitso.run.goorm.site/download/image?emotion=fear', // 두려운 감정 이미지 URL
-    'https://daitso.run.goorm.site/download/image?emotion=neutral', // 중립적인 감정 이미지 URL
+    'https://hufs-emo-aid.run.goorm.site/download/image?emotion=happy', // 행복한 감정 이미지 URL
+    'https://hufs-emo-aid.run.goorm.site/download/image?emotion=angry', // 화난 감정 이미지 URL
+    'https://hufs-emo-aid.run.goorm.site/download/image?emotion=sad', // 슬픈 감정 이미지 URL
+    'https://hufs-emo-aid.run.goorm.site/download/image?emotion=fear', // 두려운 감정 이미지 URL
+    'https://hufs-emo-aid.run.goorm.site/download/image?emotion=neutral', // 중립적인 감정 이미지 URL
   ];
 
   // 이미지 리스트 초기화

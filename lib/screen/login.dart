@@ -14,7 +14,7 @@ class _LoginPageState extends State<LoginPage> {
   String enteredPassword = "";
 
   void handleLogin() {
-    String validUsername = "daitso";
+    String validUsername = "hufs-emo-aid";
     String validPassword = "1234";
 
     if (enteredUsername == validUsername && enteredPassword == validPassword) {

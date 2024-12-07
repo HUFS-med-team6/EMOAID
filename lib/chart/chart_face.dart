@@ -47,7 +47,7 @@ class _FacePageState extends State<FacePage> {
   double relationshipScore = 0.0; // Initialize the relationshipScore
   String evaluation2 = '';
 
-  String serverUrl = 'https://daitso.run.goorm.site/download/chart/image';
+  String serverUrl = 'https://hufs-emo-aid.run.goorm.site/download/image';
   Image? image;
 
   Future<void> _fetchImage() async {

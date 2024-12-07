@@ -249,7 +249,7 @@ notebook_login()
 ## 프론트엔드 개발 환경
 
 - <중요> 로그인의 아이디와 비밀번호는 다음과 같습니다 !
-  아이디 : daitso
+  아이디 : hufs-emo-aid
   비밀번호 : 1234
 - Dart 언어 기반의 Flutter
 - Flutter 설치 하기 : https://docs.flutter.dev/get-started/install
@@ -352,7 +352,7 @@ notebook_login()
 
 ![image](https://github.com/BridZe/bridze/assets/89845380/4525aee1-12b2-4848-9842-28e9e466cb0f)
 
-아이디 : daitso
+아이디 : hufs-emo-aid
 비밀번호 : 1234
 
 ### 언어 평가 과정

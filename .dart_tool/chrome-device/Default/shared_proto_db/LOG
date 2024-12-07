@@ -1,10 +1,20 @@
-2024/11/29-19:38:21.202 a703 Reusing MANIFEST /private/var/folders/98/1x1x3czj1393_g18m7hlwxk40000gn/T/flutter_tools.o10UOW/flutter_tools_chrome_device.iF3WCv/Default/shared_proto_db/MANIFEST-000001
-2024/11/29-19:38:21.203 a703 Recovering log #13
-2024/11/29-19:38:21.204 a703 Reusing old log /private/var/folders/98/1x1x3czj1393_g18m7hlwxk40000gn/T/flutter_tools.o10UOW/flutter_tools_chrome_device.iF3WCv/Default/shared_proto_db/000013.log 
-2024/11/29-19:38:21.204 a703 Delete type=0 #7
-2024/11/29-19:38:21.204 a703 Delete type=0 #4
-2024/11/29-19:38:21.204 a703 Delete type=0 #10
-2024/11/29-19:38:21.204 a703 Delete type=0 #3
-2024/11/29-19:39:03.499 f803 Level-0 table #17: started
-2024/11/29-19:39:03.514 f803 Level-0 table #17: 124188 bytes OK
-2024/11/29-19:39:03.525 f803 Delete type=0 #13
+2024/12/07-15:46:06.984 a003 Reusing MANIFEST /private/var/folders/98/1x1x3czj1393_g18m7hlwxk40000gn/T/flutter_tools.0IoBoG/flutter_tools_chrome_device.LxvUTa/Default/shared_proto_db/MANIFEST-000001
+2024/12/07-15:46:06.985 a003 Recovering log #16
+2024/12/07-15:46:06.985 a003 Reusing old log /private/var/folders/98/1x1x3czj1393_g18m7hlwxk40000gn/T/flutter_tools.0IoBoG/flutter_tools_chrome_device.LxvUTa/Default/shared_proto_db/000016.log 
+2024/12/07-15:46:06.985 a003 Delete type=0 #13
+2024/12/07-15:46:06.985 a003 Delete type=0 #7
+2024/12/07-15:46:06.985 a003 Delete type=0 #4
+2024/12/07-15:46:06.985 a003 Delete type=0 #10
+2024/12/07-15:46:06.985 a003 Delete type=0 #3
+2024/12/07-15:46:17.415 a003 Level-0 table #20: started
+2024/12/07-15:46:17.425 a003 Level-0 table #20: 128794 bytes OK
+2024/12/07-15:46:17.433 a003 Delete type=0 #16
+2024/12/07-15:46:17.433 a003 Compacting 4@0 + 1@1 files
+2024/12/07-15:46:17.439 a003 Generated table #21@0: 796 keys, 55819 bytes
+2024/12/07-15:46:17.439 a003 Compacted 4@0 + 1@1 files => 55819 bytes
+2024/12/07-15:46:17.447 a003 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/07-15:46:17.447 a003 Delete type=2 #14
+2024/12/07-15:46:17.447 a003 Delete type=2 #17
+2024/12/07-15:46:17.447 a003 Delete type=2 #11
+2024/12/07-15:46:17.447 a003 Delete type=2 #8
+2024/12/07-15:46:17.447 a003 Delete type=2 #20

@@ -76,7 +76,7 @@ class AudioRecorderWidgetState extends State<AudioRecorderWidget> {
       if (aresponse.statusCode == 200) {
         var request = http.MultipartRequest(
           "POST",
-          Uri.parse("https://daitso.run.goorm.site/audio"),
+          Uri.parse("https://hufs-emo-aid.run.goorm.site/audio"),
         );
 
         var audio = http.MultipartFile.fromBytes(

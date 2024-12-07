@@ -18,7 +18,7 @@ Future<void> imageupload(imageFile, int num) async {
     // POST 요청을 위한 준비 단계
     var request = http.MultipartRequest(
       "POST",
-      Uri.parse("https://daitso.run.goorm.site/image/$num"),
+      Uri.parse("https://hufs-emo-aid.run.goorm.site/image/$num"),
     );
 
     // 이미지 데이터를 MultipartFile로 변환
@@ -50,7 +50,7 @@ Future<void> videoupload(videoFile, int num) async {
   http.Response aresponse = await http.get(
     Uri.parse(videoFile!.path),
   );
-  String server = "https://daitso.run.goorm.site/video/$num";
+  String server = "https://hufs-emo-aid.run.goorm.site/video/$num";
   if (aresponse.statusCode == 200) {
     // POST 요청을 위한 준비 단계
     var request = http.MultipartRequest(

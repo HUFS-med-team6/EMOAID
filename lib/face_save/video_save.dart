@@ -31,13 +31,13 @@ class _VideoAppState extends State<VideoApp> {
   List<VideoPlayerController> _initializeVideoControllers() {
     return [
       VideoPlayerController.networkUrl(
-        Uri.parse('https://daitso.run.goorm.site/download/video/1'),
+        Uri.parse('https://hufs-emo-aid.run.goorm.site/download/video/1'),
       ),
       VideoPlayerController.networkUrl(
-        Uri.parse('https://daitso.run.goorm.site/download/video/2'),
+        Uri.parse('https://hufs-emo-aid.run.goorm.site/download/video/2'),
       ),
       VideoPlayerController.networkUrl(
-        Uri.parse('https://daitso.run.goorm.site/download/video/3'),
+        Uri.parse('https://hufs-emo-aid.run.goorm.site/download/video/3'),
       ),
     ]..forEach((controller) async {
         await controller.initialize();

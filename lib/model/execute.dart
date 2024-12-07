@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 Future<void> executeFile(String emotion) async {
   final url =
-      Uri.parse('https://daitso.run.goorm.site/execute?emotion=$emotion');
+      Uri.parse('https://hufs-emo-aid.run.goorm.site/execute?emotion=$emotion');
   final response = await http.get(url);
 
   if (response.statusCode == 200) {
